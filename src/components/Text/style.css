@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Yanone+Kaffeesatz:wght@500&family=Zen+Kurenaido&display=swap");
+
+.small {
+  font-size: 12px;
+  font-family: "Abel", sans-serif;
+}
+
+.medium {
+  font-size: 23px;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.large {
+  font-size: 50px;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "Zen Kurenaido", sans-serif;
+}

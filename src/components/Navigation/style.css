@@ -1,0 +1,23 @@
+.nav {
+  max-width: 80vw;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__left {
+  height: 100%;
+  cursor: pointer;
+}
+.nav__right {
+  display: flex;
+  flex-direction: row;
+}
+.nav__item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.nav__item:hover {
+  border-bottom: 1.5px solid #777777;
+}

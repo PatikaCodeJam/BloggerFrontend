@@ -1,0 +1,23 @@
+.footer {
+  background-color: #f4f4f4;
+  padding: 40px 0px;
+}
+
+.footer__inner {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img {
+  width: 10;
+  height: 10;
+}
+
+.footer__left {
+}
+
+.footer__right {
+}
