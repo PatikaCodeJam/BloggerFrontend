@@ -12,12 +12,14 @@
 }
 
 .img {
-  width: 10;
-  height: 10;
+  width: 25px;
+  margin-right: 3px;
 }
 
 .footer__left {
 }
 
 .footer__right {
+  display: flex;
+  flex-direction: row;
 }

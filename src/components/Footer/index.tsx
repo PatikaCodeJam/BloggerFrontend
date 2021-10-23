@@ -1,10 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Text from "../Text";
 
 import "./styles.css";
 
-import Deneme from "../../images/deneme.png";
+import Github from "../../assets/github.png";
+import Medium from "../../assets/medium.png";
+import Slack from "../../assets/slack.png";
+import Twitter from "../../assets/twitter.png";
 
 type Props = {};
 
@@ -16,9 +19,18 @@ const Footer: React.FC<Props> = () => {
           <img src="./images/back.png" alt="" />
           <Text size="small">Copyright © | Himang</Text>
         </div>
-        <img src="./GithubLogo.png" alt="" className="img" />
         <div className="footer__right">
-          <Text size="small">Copyright</Text>
+          <a href="https://www.github.com">
+            <img src={Github} alt="" className="img" />
+          </a>
+
+          <a href="https://www.medium.com">
+            <img src={Medium} alt="" className="img" />
+          </a>
+
+          <a href="https://www.twitter.com">
+            <img src={Twitter} alt="" className="img" />
+          </a>
         </div>
       </div>
     </div>

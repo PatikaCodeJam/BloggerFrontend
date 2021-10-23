@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Yanone+Kaffeesatz:wght@500&family=Zen+Kurenaido&display=swap");
 
+.xsmall {
+  font-size: 12px;
+  font-family: "Abel", sans-serif;
+}
 .small {
   font-size: 12px;
   font-family: "Abel", sans-serif;

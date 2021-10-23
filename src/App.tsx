@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Router>
       <Navigation />
-      <div style={{ height: "100vh" }}>
+      <div style={{ height: "74vh" }}>
         <Switch>
           <Route exact path="/">
             <Home />
@@ -24,8 +24,8 @@ export default function App() {
           </Route>
         </Switch>
 
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }
