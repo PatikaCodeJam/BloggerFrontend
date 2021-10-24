@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.css";
 
-type TextStyle = "small" | "medium" | "large" | "title";
+type TextStyle = "xsmall" | "small" | "medium" | "large" | "title";
 
 type Props = {
   size: TextStyle;

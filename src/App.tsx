@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Detail from "./pages/Detail";
 
 import Footer from "./components/Footer";
 
@@ -11,10 +12,10 @@ export default function App() {
   return (
     <Router>
       <Navigation />
-      <div style={{ height: "74vh" }}>
+      <div style={{}}>
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Detail />
           </Route>
           <Route path="/about">
             <About />
@@ -23,7 +24,6 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
-
       </div>
       <Footer />
     </Router>

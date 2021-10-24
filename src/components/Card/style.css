@@ -1,0 +1,57 @@
+.card__container {
+  min-height: 20vh;
+  border-radius: 10px;
+  background: #ffba9d33;
+  margin: 15px 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.card__container:hover {
+  background: #ffba9d;
+}
+.card__top {
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__top__right {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card__avatar {
+  height: 80%;
+  width: 2vw;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.card__name {
+  margin-left: 8px;
+}
+.card__top__left {
+}
+.card__title {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.card__bottom {
+  min-height: 3vh;
+  display: flex;
+  flex-direction: row;
+}
+.card__tag {
+  border-radius: 5px;
+  background: #ffba9d;
+  height: 3vh;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  margin: 0 2px;
+}

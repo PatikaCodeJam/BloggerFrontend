@@ -1,6 +1,7 @@
 import React from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
-
+import Card from "../../components/Card";
+import Pagination from "../../components/Pagination";
 import "./style.css";
 
 type Props = {
@@ -20,20 +21,9 @@ const Home: React.FC<Props> = ({ title }) => {
 
         <TabPanels>
           <TabPanel>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
-            <p>one!</p>
+            <Card />
+            <Card />
+            <Card />
           </TabPanel>
           <TabPanel>
             <p>two!</p>
@@ -46,6 +36,7 @@ const Home: React.FC<Props> = ({ title }) => {
           </TabPanel>
         </TabPanels>
       </Tabs>
+      <Pagination />
     </div>
   );
 };

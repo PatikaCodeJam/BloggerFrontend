@@ -17,7 +17,7 @@ const Footer: React.FC<Props> = () => {
       <div className="footer__inner">
         <div className="footer__left">
           <img src="./images/back.png" alt="" />
-          <Text size="small">Copyright © | Himang</Text>
+          <Text size="xsmall">Copyright © | Himang</Text>
         </div>
         <div className="footer__right">
           <a href="https://www.github.com">

@@ -1,0 +1,43 @@
+.detail__container {
+  min-height: 78vh;
+  margin: 0px 20vw;
+  margin-top: 20px;
+}
+.detail__header {
+  min-height: 5.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__right {
+  height: 5.5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__avatar {
+  height: 100%;
+  width: 2.5vw;
+  border-radius: 5px;
+  background: #565656;
+}
+.header__name {
+  margin-left: 8px;
+}
+.header__left {
+}
+.detail__title {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  cursor: pointer;
+  padding: 5px 5px;
+}
+.detail__content {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  cursor: pointer;
+  padding: 0 5px;
+}
