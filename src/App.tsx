@@ -15,13 +15,16 @@ export default function App() {
       <div style={{}}>
         <Switch>
           <Route exact path="/">
-            <Detail />
+            <Home />
           </Route>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/detail/:id">
+            <Detail />
           </Route>
         </Switch>
       </div>
